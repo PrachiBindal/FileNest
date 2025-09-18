@@ -1,0 +1,46 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.out
+
+# VS Code settings
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+/myenv
+
+# Logs
+*.log
+
+# Test output
+/test/*.out
+/data/*.out
+/data
+
+# Ignore build folders
+/build/
+/bin/
+
+# Ignore user-specific files
+*.swp
+*.swo
+*.tmp
+.DS_Store
